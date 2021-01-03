@@ -20,10 +20,10 @@
 
 title: YouAndJoyAndHappy
 # email: your-email@example.com
-# description: >- # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://u-joy-happy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -34,37 +34,37 @@ theme: minima
 plugins:
   - jekyll-feed
   
-remote_theme : poole/hyde
 
 ############
 
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# # Dependencies
+# markdown:         redcarpet
+# highlighter:      pygments
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+# # Permalinks
+# permalink:        pretty
+# relative_permalinks: true
 
-# Setup
-# title:            Hyde
-# tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-# url:              http://hyde.getpoole.com
-# baseurl:          /
+# # Setup
+# # title:            Hyde
+# # tagline:          'A Jekyll theme'
+# description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+# # url:              http://hyde.getpoole.com
+# # baseurl:          /
 
-author:
-  name:           'HyojuKim'
-  url:            https://instagram.com/kire2ii
+# author:
+#   name:           'HyojuKim'
+#   url:            https://instagram.com/kire2ii
 
-# paginate:         5
+# # paginate:         5
 
-# Custom vars
-version:          2.1.0
+# # Custom vars
+# version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+# github:
+#   repo:           https://github.com/poole/hyde
 
+# remote_theme : poole/hyde
 ############
 
 # Exclude from processing.
