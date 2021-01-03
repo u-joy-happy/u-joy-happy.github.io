@@ -35,37 +35,12 @@ plugins:
   - jekyll-feed
   
 
-############
+#######
+markdown: kramdown
 
-# # Dependencies
-# markdown:         redcarpet
-# highlighter:      pygments
+remote_theme : old-jekyll-templates/Read-Only-Jekyll-Theme
 
-# # Permalinks
-# permalink:        pretty
-# relative_permalinks: true
-
-# # Setup
-# # title:            Hyde
-# # tagline:          'A Jekyll theme'
-# description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-# # url:              http://hyde.getpoole.com
-# # baseurl:          /
-
-# author:
-#   name:           'HyojuKim'
-#   url:            https://instagram.com/kire2ii
-
-# # paginate:         5
-
-# # Custom vars
-# version:          2.1.0
-
-# github:
-#   repo:           https://github.com/poole/hyde
-
-# remote_theme : poole/hyde
-############
+#######
 
 # Exclude from processing.
 # The following items will not be processed, by default.
